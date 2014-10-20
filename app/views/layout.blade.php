@@ -66,14 +66,6 @@
 				<!--  or, for logo image: <div id="logo"><a href="index.html"><img src="images/universidades/css/img/MicroPrism.png" alt="" /></a></div> -->
 				<!-- ..Logo -->
 				<!-- Navi -->
-				<div id="buscador">
-					{{Form::open(array('url' => 'busqueda', 'method' => 'get'))}}
-						<input type="text" id="searcher" name="searcher">
-						<button>Enviar</button>
-						<datalist id="searcher">
-						</datalist>
-					{{Form::close()}}
-				</div>
 				<nav id="master-nav">
 					<ul>
 						<li class="dropdown active hassubmenu"><a href="{{ URL::to('inico')}}">Inicio</a></li>
